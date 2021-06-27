@@ -1,0 +1,125 @@
+.header-container img{
+   background-size: cover;
+   width: 100%;
+   background-size: cover;
+   height: 70vh;
+   opacity: .6;
+    /* border: 2px solid red; */
+margin: 0;
+padding: 0;
+}
+.header-container{
+   position: relative;
+}
+body{
+    /* background-color: #dfe6e9; */
+    font-family: 'Arvo';
+}
+.on-image{
+/* background-color: beige; */
+position: absolute;
+top: 140px;
+left: 30px;
+color: white;
+max-width: 75vh;
+
+}
+.tour-row{
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center;
+    justify-items: center; */
+    /* justify-content: space-between; */
+    padding-left: 5%;
+   
+}
+.box{
+    margin: 4%;
+    min-width: 350px;
+}
+.ep-more{
+    margin-top: -20px;
+    margin-left: 45%;
+}
+
+
+.my-btn{
+    background-color: lightgray;
+    /* color: lightblue; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #3287C7;
+}
+.slider-img img{
+    width: 100% ;
+    
+    /* border: 2px solid red; */
+
+
+}
+.about-img img{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+}
+.web-menu li:hover{
+    background-color: rgb(250, 94, 66);
+   
+}
+
+.slick-slide img{
+    height: 80vh;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 16px 0;
+    list-style: none;
+    position: absolute;
+    bottom: 15px;
+    left: 46%;
+}
+.slick-dots li.slick-active button{
+    background-color: tomato;
+}
+.slick-dots li{
+    font-size: 0.4em;
+    margin: 0 0.25rem;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+.slick-dots button{
+   display: block;
+   width: 16px;
+   height: 16px;
+   padding: 0;
+   border: none;
+   border-radius: 50%;
+}
+.my-btn:hover{
+    background-color: #3287C7;
+   
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+   .tour-container{
+       padding-left: 5%;
+       padding-right: 12%;
+   }
+   .ep-more{
+       margin-left: 29%;
+   }
+   .on-image{
+       top: 55%;
+   }
+   .box{
+       /* min-width: 150px; */
+   }
+   .slick-slide img{
+    height: 40vh;
+}
+  }
